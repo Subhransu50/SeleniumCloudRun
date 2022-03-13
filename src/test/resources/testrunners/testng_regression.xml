@@ -7,8 +7,9 @@
 
 	<test name="Sauce Test - FF">
 		<parameter name="browser" value="firefox" />
-		<parameter name="version" value="79.0" />
+		
 		<parameter name="platform" value="windows 10" />
+		<parameter name="version" value="latest" />
 
 		<classes>
 			<class name="com.mytests.SauceTest" />
@@ -18,8 +19,9 @@
 
 	<test name="Sauce Test - Chrome">
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="85.0" />
+		
 		<parameter name="platform" value="macOS 10.15" />
+		<parameter name="version" value="latest" />
 
 		<classes>
 			<class name="com.mytests.SauceTest" />

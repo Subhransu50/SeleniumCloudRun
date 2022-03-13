@@ -30,8 +30,8 @@ public class BaseTest {
 		sauceOpts.setCapability("name", methodName);
 		sauceOpts.setCapability("build", "Java-W3C-Examples");
 		sauceOpts.setCapability("seleniumVersion", "3.141.59");
-		sauceOpts.setCapability("username", "naveenanimation20");
-		sauceOpts.setCapability("accessKey", "f418309b-b7b4-424d-825c-0d4a78b90bb5");
+		sauceOpts.setCapability("username", "oauth-pandasekharsubhransu2020-7c486");
+		sauceOpts.setCapability("accessKey", "f732e0ef-e613-472b-ba22-5c10723153c8");
 		sauceOpts.setCapability("tags", "w3c-chrome-tests");
 
 		DesiredCapabilities cap = new DesiredCapabilities();
@@ -48,7 +48,7 @@ public class BaseTest {
 		}
 		// https://naveenanimation20:f418309b-b7b4-424d-825c-0d4a78b90bb5@ondemand.us-west-1.saucelabs.com:443/wd/hub
 		try {
-			driver = new RemoteWebDriver(new URL("https://ondemand.us-west-1.saucelabs.com:443/wd/hub"), cap);
+			driver = new RemoteWebDriver(new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub"), cap);
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
