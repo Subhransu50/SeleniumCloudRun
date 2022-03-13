@@ -19,7 +19,7 @@ public class SauceTest extends BaseTest {
 	public void checkInventoryItemTest() {
 		doLogin();
 		
-		
+		//Added Commentedline by Subhransu
 		//Assert.assertTrue(driver.findElements(By.cssSelector(".inventory_item")).size() == 6);
 	}
 
